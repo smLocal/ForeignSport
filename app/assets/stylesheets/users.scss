@@ -6,15 +6,17 @@
   height: 50px;
   width: 100%;
   background-color: blue;
+  position: relative;
 }
 
 .phone {
   color: white;
-  text-decoration: bold;
   margin-left: 300px;
+  position: absolute;
 }
 
-// .phoneNumber {
-
-//   margin-top: 100px;
-// }
+.address {
+  color: grey;
+  margin-left: 500px;
+  position: absolute;
+}
