@@ -43,12 +43,12 @@ margin: 0 0 40px 0;
   position: absolute;
 }
 
+// fix the nav div, postion is stacked, not relative
 .nav {
   height: 70px;
   width: 100%;
   background-color: white;
-  position: relative;
-  z-index: 3;
+  // position: relative;
 }
 
 .centered {
@@ -56,4 +56,24 @@ margin: 0 0 40px 0;
   text-align: center;
 }
 
-
+.squares {
+  position: relative;
+}
+.one {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+}
+.two {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+}
+.three {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+}
