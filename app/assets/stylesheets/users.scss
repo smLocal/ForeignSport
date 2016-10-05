@@ -2,7 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+//css reset fixed my blue div not touching sides
+html, body {
+  margin:0;
+  padding:0;
+}
 .head {
+  padding: 0;
   height: 50px;
   width: 100%;
   background-color: blue;
