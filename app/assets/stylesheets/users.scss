@@ -13,6 +13,7 @@ html, body {
   width: 100%;
   background-color: black;
   position: relative;
+  z-index: 2;
 }
 
 .phone {
@@ -20,21 +21,27 @@ html, body {
   margin-left: 300px;
   position: absolute;
 }
-
 .address {
   color: grey;
   margin-left: 450px;
   position: absolute;
 }
-
 .days {
   color: grey;
   margin-left: 900px;
   position: absolute;
 }
-
 .time {
   color: white;
   margin-left: 1000px;
   position: absolute;
 }
+
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 3;
+}
+
