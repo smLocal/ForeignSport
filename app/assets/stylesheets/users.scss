@@ -61,6 +61,7 @@ margin: 0 0 40px 0;
 }
 .square {
   display: inline-block;
+
 }
 .one {
   height: 200px;
@@ -68,10 +69,12 @@ margin: 0 0 40px 0;
   // min-height: 10%;
   // width: auto;
   background-image: url(image-path('repair.jpg'));
+  margin-right: 20px;
 }
 .two {
   height: 200px;
   width: 400px;
+  margin-right: 20px;
   background-image: url(image-path('tuning.jpg'));
 }
 .three {
