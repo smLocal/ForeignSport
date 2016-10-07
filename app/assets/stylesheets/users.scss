@@ -57,24 +57,31 @@ margin: 0 0 40px 0;
 }
 
 .squares {
-  text-align: justify;
+  text-align: center;
 }
 .square {
-  min-height: 10%;
-  width: auto;
-  background-image: url(image-path('repair.jpg'));
   display: inline-block;
 }
-// .square {
-//   height: 200px;
-//   width: 400px;
-//   background-image: url(image-path('tuning.jpg'));
-//   display: inline-block;
-// }
-// .square {
-//   height: 200px;
-//   width: 400px;
-//   background-image: url(image-path('maintenace.png'));
-//   display: inline-block;
-// }
+.one {
+  height: 200px;
+  width: 400px;
+  // min-height: 10%;
+  // width: auto;
+  background-image: url(image-path('repair.jpg'));
+}
+.two {
+  height: 200px;
+  width: 400px;
+  background-image: url(image-path('tuning.jpg'));
+}
+.three {
+  height: 200px;
+  width: 400px;
+  background-image: url(image-path('maintenance.png'));
+}
+div:after {
+    content: ' ';
+    display: inline-block;
+    width: 100%;
+}
 
