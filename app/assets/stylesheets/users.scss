@@ -57,24 +57,24 @@ margin: 0 0 40px 0;
 }
 
 .squares {
-  position: relative;
+  text-align: justify;
 }
-.one {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  position: absolute;
-  margin-left: 33%;
+.square {
+  min-height: 10%;
+  width: auto;
+  background-image: url(image-path('repair.jpg'));
+  display: inline-block;
 }
-.two {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  position: absolute;
-}
-.three {
-  height: 100px;
-  width: 100px;
-  background-color: green;
-  position: absolute;
-}
+// .square {
+//   height: 200px;
+//   width: 400px;
+//   background-image: url(image-path('tuning.jpg'));
+//   display: inline-block;
+// }
+// .square {
+//   height: 200px;
+//   width: 400px;
+//   background-image: url(image-path('maintenace.png'));
+//   display: inline-block;
+// }
+
